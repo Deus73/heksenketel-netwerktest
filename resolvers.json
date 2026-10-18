@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Proximus primair",
+    "ip": "195.238.2.21",
+    "category": "provider",
+    "source": "https://www.proximus.be/support/en/id_sfaqr_virus_we_attack/personal/support/internet/security-and-protection/internet-ports-and-security/your-anti-virus-says-you-are-attacked-by-proximus-why.html"
+  },
+  {
+    "name": "Proximus secundair",
+    "ip": "195.238.2.22",
+    "category": "provider",
+    "source": "https://www.reddit.com/r/belgium/comments/j4c30l/anyone_working_in_the_networkdns_team_of_proximus/"
+  },
+  {
+    "name": "Telenet primair",
+    "ip": "195.130.131.4",
+    "category": "provider",
+    "source": "https://www.netweters.be/t5/Surfen-bellen-sms-en/DNS-probleem/td-p/81194"
+  },
+  {
+    "name": "Telenet secundair",
+    "ip": "195.130.130.4",
+    "category": "provider",
+    "source": "https://www.netweters.be/t5/Surfen-bellen-sms-en/DNS-probleem/td-p/81194"
+  },
+  {"name": "Cloudflare", "ip": "1.1.1.1", "category": "reference"},
+  {"name": "Google Public DNS", "ip": "8.8.8.8", "category": "reference"},
+  {"name": "Quad9", "ip": "9.9.9.9", "category": "reference"}
+]

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.gradle/
+**/build/
+local.properties
+downloads/
+reports/
+dns-report-*/
+*.apk
+*.jks
+*.keystore
+.DS_Store
