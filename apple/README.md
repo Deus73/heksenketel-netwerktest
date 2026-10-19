@@ -1,27 +1,29 @@
-# De Heksenketel voor iPhone en iPad — website-icoon
+# Heksenketel Netwerktest voor iPhone en iPad
 
-**[Download De-Heksenketel.mobileconfig](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.2/De-Heksenketel.mobileconfig)**
+**[Download De-Heksenketel.mobileconfig](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.3/De-Heksenketel.mobileconfig)**
 
-Dit Apple-configuratieprofiel voegt **De Heksenketel** als icoon toe aan het beginscherm. Het icoon opent `https://www.deheksenketel.com/` als schermvullende webclip.
+Dit profiel voegt **Heksenketel Test** als icoon toe aan het beginscherm. Het icoon opent de webapp op:
 
-**Dit is een websitesnelkoppeling, geen iOS-versie van de Android-netwerktest. Het profiel voert geen DNS-metingen uit en verstuurt geen diagnoserapporten.**
+**https://www.deheksenketel.com/dns-diagnose/app/index.html**
+
+De webapp moet eerst op de hosting worden geplaatst; zie de [webapp-handleiding](../webapp/README.md). De webapp voert na een druk op de testknop browsermetingen en afzonderlijk gelabelde hostingmetingen uit en biedt het rapport automatisch aan voor e-mail. Het profiel zelf is uitsluitend de snelkoppeling en wijzigt geen DNS- of netwerkinstellingen.
 
 ## Installeren
 
 1. Open de downloadlink in **Safari** op je iPhone of iPad.
 2. Sta het downloaden van het configuratieprofiel toe als iOS daarom vraagt.
-3. Open **Instellingen → Profiel gedownload**. Zie je die optie niet, ga dan naar **Algemeen → VPN en apparaatbeheer** en selecteer het gedownloade profiel.
-4. Selecteer **De Heksenketel — website-icoon**, tik op **Installeer** en bevestig met de toegangscode van je toestel.
-5. Open het icoon **De Heksenketel** op het beginscherm.
+3. Open **Instellingen → Profiel gedownload**. Zie je die optie niet, ga dan naar **Algemeen → VPN en apparaatbeheer**.
+4. Selecteer **Heksenketel Netwerktest — webapp**, tik op **Installeer** en bevestig met je toegangscode.
+5. Open **Heksenketel Test** op het beginscherm. De pagina toont **Webapp · v1.3**.
 
-Het profiel is niet digitaal ondertekend; iOS vermeldt dit tijdens installatie. Beheerde toestellen kunnen profielinstallatie beperken. Er is geen Apple Developer-account nodig voor deze websitesnelkoppeling.
+Het profiel heeft dezelfde identificatie als het eerdere websiteprofiel. iOS kan daarom vragen de bestaande configuratie te vervangen. Het profiel is niet digitaal ondertekend; iOS vermeldt dit tijdens installatie. Beheerde toestellen kunnen installatie beperken. Er is geen Apple Developer-account nodig.
 
 ## Verwijderen
 
-Ga naar **Instellingen → Algemeen → VPN en apparaatbeheer → De Heksenketel — website-icoon → Verwijder profiel**. Het webclip-icoon is ook verwijderbaar.
+Ga naar **Instellingen → Algemeen → VPN en apparaatbeheer → Heksenketel Netwerktest — webapp → Verwijder profiel**. Het webclip-icoon is ook verwijderbaar. Rapporten van de webapp worden apart in de websiteopslag van de browser bewaard; het verwijderen van het profiel wist deze niet noodzakelijk.
 
-## Inhoud
+## Verschil met de Android-app
 
-Eén verwijderbare webclip met het officiële HTTPS-webadres. Geen DNS-configuratie, VPN, apparaatbeheerinschrijving of certificaten. Het profiel wijzigt geen netwerkinstellingen. Bij het openen van de website gelden de gewone gegevensverwerking en cookies van die website.
+Een browser kan niet rechtstreeks dezelfde systeem- en provider-DNS-metingen uitvoeren als een native Android-app. De webapp toont duidelijk welke metingen vanuit de browser komen en welke vanaf de hostingserver. Zie de [vergelijking](../webapp/README.md#welke-metingen-vinden-waar-plaats).
 
-Het bestand is als Apple XML-property-list gecontroleerd. Een fysieke iPhone/iPad-installatie is vanuit deze werkomgeving niet getest.
+Het profiel bevat één verwijderbare webclip en geen VPN, apparaatbeheerinschrijving, certificaten of DNS-configuratie. De XML-property-list is gecontroleerd. Installatie op een fysieke iPhone/iPad is vanuit deze werkomgeving niet getest.

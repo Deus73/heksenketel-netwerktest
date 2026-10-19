@@ -1,5 +1,13 @@
 # Wijzigingen
 
+## v1.3 — webapp
+
+- Installeerbare webapp met bereikbaarheidstest, browser-DoH, apart gelabelde hosting-DNS-metingen, lokale rapporten en automatische aanbieding voor e-mail.
+- Apple-profiel opent de webapp in plaats van de gewone homepage.
+- Uploadpakket met app en meetbackend, zonder het bestaande mailontvangstpunt te overschrijven.
+- Geen zichtbaar of aanpasbaar ontvangstadres in de webapp.
+- Native Android-app blijft versie 1.2.
+
 ## v1.2
 
 - Versienummer zichtbaar in de appkop: **Netwerktest · v1.2**.

@@ -1,6 +1,16 @@
-# Heksenketel Netwerktest — Android
+# Heksenketel Netwerktest — webapp, Android en Apple-profiel
 
 **Test de bereikbaarheid van www.deheksenketel.com en stuur je bevindingen automatisch naar De Heksenketel.**
+
+## Webapp voor iPhone, iPad, Android en desktop
+
+**[Open de webapp](https://www.deheksenketel.com/dns-diagnose/app/index.html)** · **[Download webhostingpakket v1.3](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.3/Heksenketel-Webapp-v1.3.zip)**
+
+De webapp moet eenmalig op de hosting worden geplaatst; zie de [installatiehandleiding](webapp/README.md). Het uploadpakket behoudt het bestaande werkende mailontvangstpunt. De webapp doet browsermetingen en apart gelabelde servermetingen en verstuurt het rapport automatisch. Browserbeperkingen betekenen dat de metingen niet identiek zijn aan alle native Android-functies.
+
+**[⬇ Download Apple-profiel (.mobileconfig)](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.3/De-Heksenketel.mobileconfig)**
+
+Het Apple-profiel opent deze webapp vanaf het beginscherm. Zie de [Apple-installatiehandleiding](apple/README.md).
 
 ## Download en installeer de app
 
@@ -17,12 +27,6 @@
 **Android 8.0 of nieuwer vereist.** Gebruik de APK bij de release, niet GitHubs automatisch gegenereerde ‘Source code’-ZIP; die ZIP bevat alleen broncode.
 
 ## Wat doet de app?
-
-### iPhone / iPad: website-icoon
-
-**[⬇ Download Apple-profiel (.mobileconfig)](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.2/De-Heksenketel.mobileconfig)**
-
-Het Apple-profiel voegt een beginschermicoon toe dat de website van De Heksenketel opent. **Het voert geen DNS-tests uit en verstuurt geen diagnoserapporten.** Zie de [Apple-installatiehandleiding](apple/README.md). De onderstaande meetfuncties horen bij de Android-app.
 
 ### Android-netwerktest
 
