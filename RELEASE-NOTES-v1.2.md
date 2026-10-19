@@ -17,3 +17,9 @@ DNS-vergelijking via de huidige aansluiting, providerresolvers en onafhankelijke
 ## Controle
 
 APK gebouwd, lintcontrole geslaagd en interface gecontroleerd op een Android 16-emulator. Met het meegeleverde SHA256-bestand kun je de download controleren. De APK gebruikt een debug-ondertekening; de privésleutel wordt niet gepubliceerd.
+
+## Ook beschikbaar voor iPhone / iPad: website-icoon
+
+Download bij **Assets** het bestand **De-Heksenketel.mobileconfig**. Open het in Safari en installeer het via **Instellingen → Profiel gedownload**. Het voegt een verwijderbaar beginschermicoon toe voor de officiële website.
+
+**Dit is geen iOS-versie van de netwerktest: het Apple-profiel doet geen DNS-metingen en verstuurt geen diagnoserapporten.** Het profiel is niet digitaal ondertekend. De structuur is gecontroleerd; installatie op een fysieke iPhone/iPad is nog niet getest.

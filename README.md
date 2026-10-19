@@ -18,6 +18,14 @@
 
 ## Wat doet de app?
 
+### iPhone / iPad: website-icoon
+
+**[⬇ Download Apple-profiel (.mobileconfig)](https://github.com/Deus73/heksenketel-netwerktest/releases/download/v1.2/De-Heksenketel.mobileconfig)**
+
+Het Apple-profiel voegt een beginschermicoon toe dat de website van De Heksenketel opent. **Het voert geen DNS-tests uit en verstuurt geen diagnoserapporten.** Zie de [Apple-installatiehandleiding](apple/README.md). De onderstaande meetfuncties horen bij de Android-app.
+
+### Android-netwerktest
+
 - Test uitsluitend `www.deheksenketel.com`.
 - Vergelijkt A/AAAA- en CNAME-antwoorden van de DNS-servers van de huidige aansluiting, een Proximus/Telenet-startlijst en Cloudflare, Google en Quad9.
 - Controleert de HTTPS-bereikbaarheid met certificaatvalidatie en legt eventuele redirects vast.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.deheksenketel.webclip.profile</string>
+    <key>PayloadUUID</key>
+    <string>8AE9D317-2BDC-45C1-9F19-6E84C56C88ED</string>
+    <key>PayloadDisplayName</key>
+    <string>De Heksenketel — website-icoon</string>
+    <key>PayloadOrganization</key>
+    <string>De Heksenketel</string>
+    <key>PayloadDescription</key>
+    <string>Voegt een beginschermicoon toe voor https://www.deheksenketel.com/. Dit profiel opent de website; het voert geen DNS-tests uit en verstuurt geen diagnoserapporten.</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.deheksenketel.webclip.home</string>
+            <key>PayloadUUID</key>
+            <string>74C269E8-8EBF-4BD1-A798-20EB261D0AF1</string>
+            <key>PayloadDisplayName</key>
+            <string>De Heksenketel</string>
+            <key>Label</key>
+            <string>De Heksenketel</string>
+            <key>URL</key>
+            <string>https://www.deheksenketel.com/</string>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+        </dict>
+    </array>
+</dict>
+</plist>
